@@ -65,6 +65,9 @@ Tipo = "Cerveceria";
 Estilo = "moderno";
 Servicio = "Cena";*/
 
+//Creo el objeto del cliente para trabajr con sus preferencias, obtengo la lista filtrada de restaurantes y utilizo map para
+// Para tener una lista solo con nombre y mostrarla
+
 const cliente1 = new Cliente(Nombre, Zona, Tipo, Estilo, Servicio);
 
 lista = RestoMatch.ordenarPreferencias(cliente1);
